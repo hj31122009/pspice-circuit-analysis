@@ -1,0 +1,9 @@
+# Exclude build artifacts
+*.html linguist-vendored
+*.md linguist-documentation
+
+**/*.go linguist-detectable
+*.woff binary
+*.go linguist-detectable  
+*.json linguist-detectable=false
+*.htm linguist-vendored
